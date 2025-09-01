@@ -1,0 +1,33 @@
+# https://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 2
+tab_width = 2
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 120
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.json]
+indent_size = 2
+indent_style = space
+
+[*.yml]
+indent_size = 2
+indent_style = space
+
+[*.yaml]
+indent_size = 2
+indent_style = space
+
+# Python – 4-space indent is standard (PEP8)
+[*.py]
+indent_size = 4
